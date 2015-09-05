@@ -50,8 +50,8 @@ window.onload = function() {
         if (size !== NaN) {
             generateBoard(size);
 
-            if (strategyInput.value === 'backdrop') {
-                backdrop(size, time);
+            if (strategyInput.value === 'backtracking') {
+                backtracking(size, time);
             } else if (strategyInput.value === 'repair') {
                 repair(size, time);
             }

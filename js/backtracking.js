@@ -1,4 +1,4 @@
-function backdrop(size, time) {
+function backtracking(size, time) {
     var board = new Array(size),
         currentCol = 0;
 
